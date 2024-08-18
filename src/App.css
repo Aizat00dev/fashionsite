@@ -1,0 +1,81 @@
+
+.card-list{
+    display: flex;
+    flex-wrap: nowrap;
+   justify-content: space-around;
+}
+
+
+.cards{
+    width: 268px;
+    height: 484px;
+    font-family: "Poppins", sans-serif;
+    color: rgb(34, 38, 42);
+    box-sizing: border-box;
+    margin-top: 65px;
+
+   
+    
+}
+
+.title{
+    font-family: "Poppins", sans-serif;
+    color: rgb(34, 38, 42);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+}
+
+.subtitle{
+    font-family: "Poppins", sans-serif;
+    color: rgb(34, 38, 42);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+}
+
+.card-img{
+    width: 268px;
+    height: 371px;
+}
+
+.card-title{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 23px;
+    text-align: left;
+    margin-top: 38px;
+}
+
+.card-subtitle{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: left;
+    margin-top: -10px;
+}
+
+.old-price, .new-price{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: -10px;
+}
+
+.old-price{
+    text-decoration: line-through;
+    color: black;
+    padding-right: 30px;
+}
+
+.new-price{
+    color: red;
+}
+
+
